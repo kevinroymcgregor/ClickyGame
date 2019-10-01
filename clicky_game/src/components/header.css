@@ -1,0 +1,10 @@
+.header{
+    margin-top: 56px;
+    background-image: url(/imgs/background.jpg);
+    color: #ffffff;
+    background-color: black;
+    background-size: cover;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
