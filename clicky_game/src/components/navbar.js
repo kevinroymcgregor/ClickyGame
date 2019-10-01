@@ -5,12 +5,12 @@ class navbar extends React.Component {
         const { score, highScore } = this.props;
 
         return (
-            <nav class="navbar fixed-top navbar-dark bg-primary">
-                <a class="navbar-brand" href="#">Clicky Game</a>
-                <div class="nav-item">
+            <nav className="navbar fixed-top navbar-dark bg-primary">
+                <a className="navbar-brand" href="/#">Clicky Game</a>
+                <div className="nav-item">
                     You have guessed correctly!
                 </div>
-                <div class="nav-item">
+                <div className="nav-item">
                     Score: {score} | High Score: {highScore}
                 </div>
             </nav>

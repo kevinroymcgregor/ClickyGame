@@ -1,15 +1,17 @@
 import React from 'react';
+import Picture from './picture';
+
 
 class Body extends React.Component {
-    
+
     render() {
-      return (
-        <div className="App">
-          <Navbar score= {this.state.score} highScore= {this.state.highScore} />
-          <Header />
-        </div>
-      );
+        return (
+            <div>
+                <Picture image="x-wing" />
+                <Picture image="tie-fighter" />
+            </div>
+        );
     }
-  }
+}
 
 export default Body;
